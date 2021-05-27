@@ -1,11 +1,7 @@
-# Git Tutorial
+# The Hacker theme
 
-Hello programmers, I am Learning Git & Github. This is really awesome.
+[![Build Status](https://travis-ci.org/pages-themes/hacker.svg?branch=master)](https://travis-ci.org/pages-themes/hacker) [![Gem Version](https://badge.fury.io/rb/jekyll-theme-hacker.svg)](https://badge.fury.io/rb/jekyll-theme-hacker)
 
-Like Our [Facebook](https://facebook.com/stacklearner) Page
+*Hacker is a Jekyll theme for GitHub Pages. You can [preview the theme to see what it looks like](http://pages-themes.github.io/hacker), or even [use it today](#usage).*
 
-## Secondary Header
-
-Hello, I am editing directly from browser.
-
-Ok, Now I am using Stash
+![Thumbnail of Hacker](https://github.com/jabed-dev/jabed/blob/main/thumbnail.png)
