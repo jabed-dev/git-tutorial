@@ -136,6 +136,16 @@ https://github.com - automatic!
 [GitHub](http://github.com)
 
 [GitHub me](http://github.com/jabed-dev "Jabed Hossai")
+
+Reference-style: 
+
+Format: [name] rul "title"
+
+[url]: https://github.com/jabed-dev/git-tutorial/edit/master/README.md "My GitHub"
+
+[My GitHub][url]
+
+[Git README][url]
 ```
 
 Inline-style:
@@ -150,5 +160,59 @@ https://github.com - automatic!
 
 [GitHub me](http://github.com/jabed-dev "Jabed Hossai")
 
-<!-- ![GitHub](https://github.githubassets.com/images/modules/open_graph/github-mark.png) -->
+Reference-style: 
 
+Format: `[name] rul "title"`
+
+[url]: https://github.com/jabed-dev/git-tutorial/edit/master/README.md "My GitHub"
+
+[My GitHub][url]
+
+[Git README][url]
+
+<!-- Image -->
+# Image 
+
+```
+Inline-style:
+
+Format: ![Image Alt](url)
+
+Format: ![Image Alt](url "title")
+
+
+![GitHub](https://github.githubassets.com/images/modules/open_graph/github-mark.png)
+
+![GitHub](https://github.githubassets.com/images/modules/open_graph/github-mark.png "GitHub")
+
+Reference-style: 
+Format: [name] url "title"
+
+[img-url]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Markdown"
+
+![GitHub][img-url]
+
+![GitHub Image][img-url]
+```
+
+Inline-style:
+
+Format: `![link text](url)`
+
+Format: `![link text](url "title")`
+
+![GitHub](https://github.githubassets.com/images/modules/open_graph/github-mark.png)
+
+![GitHub me](https://github.githubassets.com/images/modules/open_graph/github-mark.png "GitHub")
+
+Reference-style: 
+
+Format: `[name] url "title"`
+
+[img-url]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Markdown"
+
+![GitHub][img-url]
+
+![GitHub Image][img-url]
+
+link with image
