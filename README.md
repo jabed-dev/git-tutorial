@@ -189,37 +189,40 @@ Image resize: <img src="url" alt="GitHub" width="200" height="150">
 Reference-style: 
 Format: [name] url "title"
 
-[img-url]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Markdown"
+[image-name]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Markdown"
 
-![Markdown Image][img-url]
+![Markdown Image][image-name]
 
-![markdown Image][img-url]
+![markdown Image][image-name]
 
 link with image
+
 [![Alt massage](image url)](link url)
+
 [![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png "https://github.com")](https://github.com)
 ```
 
 Inline-style:
 
-Format: `![link text](url)`
+Format: `![Alt massage](url "title")`
 
-Format: `![link text](url "title")`
+![GitHub](https://github.githubassets.com/images/modules/open_graph/github-mark.png "GitHub")
 
-![GitHub](https://github.githubassets.com/images/modules/open_graph/github-mark.png)
+Image resize: `<img src="url" alt="GitHub" width="300" height="200">`
 
-![GitHub me](https://github.githubassets.com/images/modules/open_graph/github-mark.png "GitHub")
+<img src="https://github.githubassets.com/images/modules/open_graph/github-mark.png" alt="GitHub" width="300" height="200">
 
 Reference-style: 
-
 Format: `[name] url "title"`
 
-[img-url]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Markdown"
+[image-name]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Markdown"
 
-![GitHub][img-url]
-
-![GitHub Image][img-url]
+![Markdown Image][image-name]
+![markdown Image][image-name]
+![markdown Image][image-name]
 
 link with image
+
+`[![Alt massage](image url)](link url)`
 
 [![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png "https://github.com")](https://github.com)
