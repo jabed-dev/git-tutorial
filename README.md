@@ -228,6 +228,15 @@ link with image
 [![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png "https://github.com")](https://github.com)
 
 
+<!-- Videos -->
+# Videos
+
+```
+Formate-1: [![Alternate Text]({image-url})]({video-url} "Link Title")
+
+Formate-2: <a href="{video-url}" title="Link Title"><img src="{image-url}" alt="Alternate Text" /></a>
+```
+
 <!-- Emoji -->
 # Emoji 
 
@@ -253,19 +262,29 @@ Emoji!
 
 <!-- CODE BLOCKS -->
 # CODE BLOCKS
-```
+
+~~~
+
+Formate 1: ```
+          code here..
+          ```
+            
+Formate 2: ~~~
+            code here..
+           ~~~
+
 Syntax-1 not language highlight: 
 
-` ` `
+```
   code here..
-` ` `
+```
 
 Syntax-2 language highlight: 
 
-` ` `language name here
+```language name here
   code here..
-` ` `
 ```
+~~~
 
 Syntax 1:
 ```
@@ -315,14 +334,10 @@ Item-7   | Item-8   | Item-9
 # GitHub User name
 
 ```
-@username
-
-"ussername"
+[@jabed-dev](https://github.com/jabed-dev "Jabed Hossain")
 ```
 
-@jabed-dev
-
-"node-app-dev"
+[@jabed-dev](https://github.com/jabed-dev "Jabed Hossain")
 
 
 <!-- Backslash Escapes -->
@@ -334,14 +349,14 @@ otherwise have special meaning in Markdown’s formating syntax.
 
 \*literal asterisks\*
 
-\_literal asterisks_\
+\_literal asterisks\_
 ```
 Markdown allows you to use backslash escapes to generate literal characters which would
 otherwise have special meaning in Markdown’s formating syntax.
 
 \*literal asterisks\*
 
-\_literal asterisks_\
+\_literal asterisks\_
 
 <!-- Comments -->
 # Comments
@@ -349,5 +364,4 @@ otherwise have special meaning in Markdown’s formating syntax.
 ```
 <!-- comments here.. -->
 ```
-
 
