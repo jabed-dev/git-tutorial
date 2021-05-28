@@ -208,9 +208,9 @@ Format: `![Alt massage](url "title")`
 
 ![GitHub](https://github.githubassets.com/images/modules/open_graph/github-mark.png "GitHub")
 
-Image resize: `<img src="url" alt="GitHub" width="300" height="200">`
+Image resize: `<img src="url" alt="GitHub" width="350" height="200">`
 
-<img src="https://github.githubassets.com/images/modules/open_graph/github-mark.png" alt="GitHub" width="300" height="200">
+<img src="https://github.githubassets.com/images/modules/open_graph/github-mark.png" alt="GitHub" width="350" height="200">
 
 Reference-style: 
 Format: `[name] url "title"`
@@ -226,3 +226,128 @@ link with image
 `[![Alt massage](image url)](link url)`
 
 [![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png "https://github.com")](https://github.com)
+
+
+<!-- Emoji -->
+# Emoji 
+
+```
+GitHub supports 
+Emoji URL: https://gist.github.com/rxaviers/7360908 
+
+Format:  :emoji name:
+
+emoji!:+1: :sparkles: :camel: :tada:
+:rocket: :metal: :octocat: 
+```
+
+GitHub supports 
+Emoji URL: https://gist.github.com/rxaviers/7360908 
+
+Format: `:emoji name:`
+
+Emoji!
+
+:+1: :sparkles: :camel: :tada: :rocket: :metal: :octocat: :star:
+
+
+<!-- CODE BLOCKS -->
+# CODE BLOCKS
+```
+Syntax-1 not language highlight: 
+
+` ` `
+  code here..
+` ` `
+
+Syntax-2 language highlight: 
+
+` ` `language name here
+  code here..
+` ` `
+```
+
+Syntax 1:
+```
+let number = 20;
+function test() {
+    console.log("look ma’, no spaces"); 
+}
+```
+
+Syntax 2:
+```javascript
+let number = 20;
+function test() {
+    console.log("look ma’, no spaces"); 
+}
+```
+
+<!-- Tables -->
+# Tables
+
+```
+Header-1 | Header-1 | Header-3
+-------- | -------- | --------
+Item-1   | Item-2   | Item-3
+Item-4   | Item-5   | Item-6
+Item-7   | Item-8   | Item-9
+```
+Header-1 | Header-1 | Header-3
+-------- | -------- | --------
+Item-1   | Item-2   | Item-3
+Item-4   | Item-5   | Item-6
+Item-7   | Item-8   | Item-9
+
+<!-- Task List -->
+# Task List
+```
+- [x] Write the press release
+- [ ] Update the website
+- [x] Contact the media 
+```
+- [x] Write the press release
+- [x] Update the website
+- [ ] Contact the media 
+
+
+<!-- GitHub User name -->
+# GitHub User name
+
+```
+@username
+
+"ussername"
+```
+
+@jabed-dev
+
+"node-app-dev"
+
+
+<!-- Backslash Escapes -->
+# Backslash Escapes
+
+```
+Markdown allows you to use backslash escapes to generate literal characters which would
+otherwise have special meaning in Markdown’s formating syntax.
+
+\*literal asterisks\*
+
+\_literal asterisks_\
+```
+Markdown allows you to use backslash escapes to generate literal characters which would
+otherwise have special meaning in Markdown’s formating syntax.
+
+\*literal asterisks\*
+
+\_literal asterisks_\
+
+<!-- Comments -->
+# Comments
+
+```
+<!-- comments here.. -->
+```
+
+
