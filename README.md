@@ -8,14 +8,6 @@
 #### Header 4
 ##### Header 5
 ###### Header 6
-
-Alternatively, for H1 and H2, an underline-ish style:
-
-Header 1
-=
-
-Header 2
--
 ```
 
 # Header 1
@@ -24,6 +16,16 @@ Header 2
 #### Header 4
 ##### Header 5
 ###### Header 6
+
+```
+Alternatively, for H1 and H2, an underline-ish style:
+
+Header 1
+=
+
+Header 2
+-
+```
 
 Alternatively, for H1 and H2, an underline-ish style:
 
