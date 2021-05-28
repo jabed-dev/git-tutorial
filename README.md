@@ -60,6 +60,14 @@ Strikethrough uses two tildes. ~`Scratch`~ and ~~`Scratch this`~~
 ```
 > blockquote
 
+<!-- Inline Code -->
+# Inline Code
+```
+The `createServer()` method of `http` creates a new HTTP server and returns it.
+```
+The `createServer()` method of `http` creates a new HTTP server and returns it.
+
+
 <!-- Horizontal Rule -->
 # Horizontal Rule
 ```
@@ -127,48 +135,42 @@ Note that this line is separate, but within the same paragraph.
 ```
 Inline-style:
 
-Format: [link text](url)
-
-Format: [link text](url "title")
+Format: `[link text](url "title")`
 
 https://github.com - automatic!
 
-[GitHub](http://github.com)
+[GitHub](http://github.com "GitHub")
 
-[GitHub me](http://github.com/jabed-dev "Jabed Hossai")
 
 Reference-style: 
 
-Format: [name] rul "title"
+Format: `[name] url "title"`
 
-[url]: https://github.com/jabed-dev/git-tutorial/edit/master/README.md "My GitHub"
+[url]: https://github.com/jabed-dev "Jabed Hossain"
 
-[My GitHub][url]
+[Jabed Hossain][url]
 
-[Git README][url]
+[jabed-dev][url]
 ```
 
 Inline-style:
-
-Format: `[link text](url)`
 
 Format: `[link text](url "title")`
 
 https://github.com - automatic!
 
-[GitHub](http://github.com)
+[GitHub](http://github.com "GitHub")
 
-[GitHub me](http://github.com/jabed-dev "Jabed Hossai")
 
 Reference-style: 
 
-Format: `[name] rul "title"`
+Format: `[name] url "title"`
 
-[url]: https://github.com/jabed-dev/git-tutorial/edit/master/README.md "My GitHub"
+[url]: https://github.com/jabed-dev "Jabed Hossain"
 
-[My GitHub][url]
+[Jabed Hossain][url]
 
-[Git README][url]
+[jabed-dev][url]
 
 <!-- Image -->
 # Image 
@@ -176,23 +178,26 @@ Format: `[name] rul "title"`
 ```
 Inline-style:
 
-Format: ![Image Alt](url)
-
-Format: ![Image Alt](url "title")
-
-
-![GitHub](https://github.githubassets.com/images/modules/open_graph/github-mark.png)
+Format: ![Alt massage](url "title")
 
 ![GitHub](https://github.githubassets.com/images/modules/open_graph/github-mark.png "GitHub")
+
+Image resize: <img src="url" alt="GitHub" width="200" height="150">
+
+<img src="https://github.githubassets.com/images/modules/open_graph/github-mark.png" alt="GitHub" width="200" height="150">
 
 Reference-style: 
 Format: [name] url "title"
 
 [img-url]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Markdown"
 
-![GitHub][img-url]
+![Markdown Image][img-url]
 
-![GitHub Image][img-url]
+![markdown Image][img-url]
+
+link with image
+[![Alt massage](image url)](link url)
+[![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png "https://github.com")](https://github.com)
 ```
 
 Inline-style:
@@ -216,3 +221,5 @@ Format: `[name] url "title"`
 ![GitHub Image][img-url]
 
 link with image
+
+[![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png "https://github.com")](https://github.com)
